@@ -1,7 +1,7 @@
 {
   "name": "strenika-grid",
   "description": "A Vue.js project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mariusrossouw <marius@stratech.co.za>",
   "license": "MIT",
   "private": false,
@@ -10,10 +10,6 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
-    "ag-grid": "^17.1.1",
-    "ag-grid-vue": "^17.1.0",
-    "axios": "^0.18.0",
-    "uikit": "^3.0.0-rc.3",
     "vue": "^2.5.11"
   },
   "browserslist": [
@@ -22,6 +18,9 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "ag-grid": "^17.1.1",
+    "ag-grid-vue": "^17.1.0",
+    "axios": "^0.18.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
@@ -32,6 +31,7 @@
     "node-sass": "^4.5.3",
     "prettier": "^1.12.0",
     "sass-loader": "^6.0.6",
+    "uikit": "^3.0.0-rc.3",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
