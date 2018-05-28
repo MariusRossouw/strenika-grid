@@ -1,7 +1,7 @@
 {
   "name": "strenika-grid",
   "description": "A Vue.js project",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "author": "mariusrossouw <marius@stratech.co.za>",
   "license": "MIT",
   "private": false,
